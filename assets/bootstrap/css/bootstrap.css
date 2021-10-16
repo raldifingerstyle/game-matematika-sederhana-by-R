@@ -60,7 +60,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0.856);
 }
 
 [tabindex="-1"]:focus {
@@ -353,7 +353,8 @@ h1, h2, h3, h4, h5, h6,
   font-family: inherit;
   font-weight: 500;
   line-height: 1.2;
-  color: inherit;
+  color: yellowgreen;
+  align-items: center;
 }
 
 h1, .h1 {
@@ -1956,7 +1957,7 @@ select.form-control:focus::-ms-value {
   padding-bottom: 0.375rem;
   margin-bottom: 0;
   line-height: 1.5;
-  color: #212529;
+  color: #c91b1b;
   background-color: transparent;
   border: solid transparent;
   border-width: 1px 0;
@@ -9864,7 +9865,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
   .table td,
   .table th {
-    background-color: #fff !important;
+    background-color: rgb(52, 233, 6) !important;
   }
   .table-bordered th,
   .table-bordered td {
