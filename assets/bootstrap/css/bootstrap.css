@@ -81,7 +81,6 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  color: #007bff;
 }
 
 abbr[title],
@@ -427,7 +426,7 @@ small,
 mark,
 .mark {
   padding: 0.2em;
-  background-color: #fcf8e3;
+  background-color: #ffef9c;
 }
 
 .list-unstyled {
@@ -1513,16 +1512,16 @@ pre code {
 .table td {
   padding: 0.75rem;
   vertical-align: top;
-  border-top: 1px solid #dee2e6;
+  border-top: 1px solid #f1ffa0;
 }
 
 .table thead th {
   vertical-align: bottom;
-  border-bottom: 2px solid #dee2e6;
+  border-bottom: 2px solid #f1ffa0;
 }
 
 .table tbody + tbody {
-  border-top: 2px solid #dee2e6;
+  border-top: 2px solid #f1ffa0;
 }
 
 .table .table {
@@ -1535,12 +1534,12 @@ pre code {
 }
 
 .table-bordered {
-  border: 1px solid #dee2e6;
+  border: 1px solid #767f88;
 }
 
 .table-bordered th,
 .table-bordered td {
-  border: 1px solid #dee2e6;
+  border: 1px solid #798591;
 }
 
 .table-bordered thead th,
@@ -1621,7 +1620,7 @@ pre code {
 }
 
 .table-hover .table-success:hover {
-  background-color: #52e672;
+  background-color: #00ff37;
 }
 
 .table-hover .table-success:hover > td,
