@@ -35,7 +35,7 @@ $(document).ready(function(){
     setInterval(function(){
       $("#score-time").load('score-time.html');
       if (time <= 0) {
-        alert('selesai mi waktu mu!');
+        alert('selesai mi waktu mu! lanjut tes sifat dan watakmu!');
         window.location.href='https://raldifingerstyle.github.io/tes-karakter-by-raldi/';
       }
     },1000);
