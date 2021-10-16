@@ -36,7 +36,7 @@ $(document).ready(function(){
       $("#score-time").load('score-time.html');
       if (time <= 0) {
         alert('selesai mi waktu mu!');
-        window.location='./';
+        window.location.href='https://raldifingerstyle.github.io/tes-karakter-by-raldi/';
       }
     },1000);
 
@@ -48,7 +48,7 @@ $(document).ready(function(){
     $("#username, #level").attr("disabled","1");
 
     //Mengubah tombol play menjadi disable dan berubah menjadi kata Enjoy the game!
-    $("#play").attr('disabled','1').val('Enjoy the game!');
+    $("#play").attr('disabled','1').val('semoga bisa menjawab banyak soal!');
 
     //Print username
     $("#usernamectn").html($("#username").val());
